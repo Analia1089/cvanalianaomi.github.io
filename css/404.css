@@ -1,0 +1,11 @@
+body{
+    background-color: #191939;
+    /* background-color: #fbbc02; */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 730px;
+    color: #fff;
+}

@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Poppins:wght@300;400&family=Source+Sans+Pro:wght@300&display=swap');
+/* font-family: 'Open Sans', sans-serif; 
+font-family: 'Poppins', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;*/
+*{
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: #191939;
+}
+/* HEADER : Nombre y icons */
+nav{
+    background-color: #191939;
+    font-family: 'Source Sans Pro', sans-serif;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ulItemsHeader{
+    float: right;
+    font-size: 25px;
+    list-style: none;
+    display: flex;
+    padding: 0px 20px;
+}
+.itemsHeader{
+    padding: 15px 30px;
+    float: right;
+}
+.logo{
+    font-size: 30px;
+    padding: 15px 60px;
+}
+.items{
+    width: 100px;
+}
+/* Portada en imagen y datos personales */
+.imagenPortada{
+    border-radius: 20px;
+    border: 2px solid #ffffff;
+    width: 800px;
+    margin: 10px 80px;
+}
+.portada{
+    display: inline;
+    float: left;
+}
+.informacion{
+    display: inline;
+    float: right;
+    margin: auto;
+    /* height: 300px; */
+}
+li{
+    font-family: 'Poppins', sans-serif;
+}
+.contenedorInformacionPersonal{
+    margin: auto;
+    width: 90%;
+    display: flex;
+}
+.myInformation{
+    margin: auto;
+    width: 180px;
+    font-family: 'Poppins', sans-serif;
+}
+.listInformation{
+    list-style: none;
+    margin: auto;
+    width: 300px;
+    display: flex;
+    /* justify-items: center; */
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+/* Boton de contacto */
+.contacto{
+    display: block;
+    margin: auto;
+    width: 140px;
+    padding: 20px 0;
+}
+.buttonContacto{
+    width: 140px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    font-size: 18px;
+    /* Letra en negrita */
+    font-weight: bold;
+    background-color: rgb(0, 74, 211);
+    font-family: 'Poppins', sans-serif;
+}
+/* FORMACION Y EXPERIENCIA */
+h2{
+    text-align: center;
+}
+.formacionYexperiencia{
+/*     margin: auto;
+    width: 90%; */
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 50px 0 50px 0;
+}
+.ulFormacionYExperiencia{
+    margin: 0 0 0 30px;
+    list-style: none;
+}
+/* Editando los iconos */
+.fa-java, .fa-php, .fa-gears, .fa-check, .fa-html5, .fa-css3-alt, .fa-square-js, .fa-bootstrap{
+    font-size: 20px;
+}
+.fa-java{
+    color: #e58080;
+}
+.fa-php{
+color: #5a5ad6;
+}
+.fa-gears{
+    color: #9090d5;
+}
+.fa-check{
+    color: aquamarine;
+}
+.fa-html5{
+    color: #f8b34a;
+}
+.fa-css3-alt{
+    color: #6969e2;
+}
+.fa-square-js{
+    color: #f0e466;
+}
+.fa-bootstrap{
+    color: #855ad6;
+}
+.formacion, .experiencia, .formacionComplementaria{
+    margin: 10px 20px;
+}
+/* Pie de pagina / FOOTER */
+footer{
+    background-color: rgb(8, 43, 89);
+    font-family: 'Poppins', sans-serif;
+    padding: 20px 0 20px 0 ;
+}
+/* Icons de redes */
+.ulRedes{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.liRedes{
+    padding: 5px 0 5px 0;
+    font-size: 18px;
+}
+.redes{
+    display: flex;
+    width: 40%;
+}
+.formulario, form{
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+}
+.contenedorFooter{
+    margin: auto;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px !important;
+}
+.footerContacto{
+    margin: 0 0 10px 0;
+}
+.ulFormulario{
+    list-style: none;
+    display: flex;
+    /* flex-direction: column; */
+    /* padding: 20px; */
+    flex-wrap: wrap;
+    width: 700px;
+}
+.liFormulario {
+    padding: 10px 10px 10px 0;
+    font-size: 18px;
+}
+.redesYFormulario{
+    display: flex;
+    justify-content: space-around;
+}
+.inputFormulario{
+    padding: 0 0 0 10px;
+    height: 36px;
+    width: 200px;
+    border-radius: 10px;
+    color: black;
+    font-size: 17px;
+}
+.inputMensaje, .inputEmail{
+    width: 400px !important;
+}
+.inputEnviar{
+    background-color: rgb(0, 74, 211);
+    border: none;
+    border-radius: 10px;
+    width: 100px !important;
+    padding: 0;
+    color: #ffffff !important;
+}
+
+/* Creditos */
+.creditos{
+    border-top: 4px solid #8d8daf;
+    text-align: center;
+}
+
+/* Modificando los inputs */
+input:focus {
+    outline: none;
+    border: 2px solid rgb(57, 23, 248);
+    box-shadow: 0 0 20px 0 rgb(68, 23, 248);
+}
